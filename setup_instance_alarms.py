@@ -15,7 +15,7 @@ import boto.ec2
 
 def get_servers(filters):
 
-    conn = boto.ec2.connect_to_region('us-east-1')
+    conn = boto.ec2.connect_to_region('us-west-2')
     reservations = conn.get_all_instances(filters=filters)
 
     servers = list()
