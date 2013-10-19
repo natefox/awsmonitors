@@ -1,7 +1,7 @@
 from fabric.api import run, sudo, env, put
 from fabric.context_managers import cd
 
-env.git_repo = "git://github.com/newsapps/awsmonitors.git"
+env.git_repo = "git://github.com/natefox/awsmonitors.git"
 
 
 def setup():
